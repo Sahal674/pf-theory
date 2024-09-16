@@ -1,0 +1,8 @@
+input 5ljug , 3ljug
+input amout
+trnsfer water in 3ljug
+empty 3ljug
+trasfer remaing water of 5ljug to 3ljug
+input refil 5ljug
+trasfer water from 5l jug to 3l jug
+output("4l water in 5l jug")
