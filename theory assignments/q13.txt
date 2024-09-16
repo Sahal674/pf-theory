@@ -1,0 +1,13 @@
+input m , n , x
+average = (m+n)/2
+if x == average
+then
+	input water in n-l jug
+	trasfer water from nl to ml
+	empty ml jug
+	trasfer remaing water from of nl to ml
+	refill nl jug with water
+	trasfer water from nl to ml jug
+	output("x amount remaing in nl jug")
+	
+	
