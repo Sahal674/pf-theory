@@ -1,0 +1,26 @@
+output("enter crop , soil Moister and hours of rainfall")
+input crop , hours , soilMoister
+if crop == "wheat"
+	then 
+		if soilMoister < 30 and hours > 24
+		then 
+			output("irrigate")
+		else
+			output("do not irrigate")
+else if crop == "corn"
+	then 
+		if soilMoister < 40 
+		then
+			output("irrigate")
+		else
+			output("dont irrigate")
+else if crop == "rice"
+	then
+		if soilMoister < 25 and hours > 24
+		then
+			output("irrigate")
+		else
+			output("dont irrigate")
+else
+ 	output("invalid crop")
+	

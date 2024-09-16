@@ -1,0 +1,20 @@
+input prov , age , gender 
+if age >= 18 
+then
+	output("legal")
+else
+	if gender == "female"
+	then
+		if prov == "sindh"
+		then
+			output("illegal")
+		else
+			if age => 16 
+			then 
+				output("legal")
+			else 
+				output("illegal")
+	else
+		output("illegal")
+		
+		

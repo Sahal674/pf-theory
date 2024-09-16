@@ -1,0 +1,30 @@
+output("enter hieght and age")
+input heihgt , age 
+while over == false 
+output("enter ride ")
+input ride
+if ride == "dragon coster"
+then
+	if heihgt => 48 and age >= 10 
+	then
+		output("requriments met for drc")
+	else
+		output("sorry not allowed")
+else if ride == "the sky swing"
+then 
+	if heihgt >= 54
+	then
+		output("criteria met")
+	else
+		output("criteria not met")
+else if ride == "carousel"
+then 
+	if age >= 5
+	then
+		output("criteria met")
+	else
+		output("criteria not met")
+output("over true or false")
+input over
+end while 
+		

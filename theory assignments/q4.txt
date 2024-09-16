@@ -1,0 +1,14 @@
+output("enter total cash")
+input totalCash
+output("enter per kg cost of onions, apricots, grapes and tomatos")
+input ocost , acost, gcost , tcost
+output("enter amount of onions , apricost , grapes and tomatos")
+input a1 , a2 ,a3 a4
+totalCOST = a1*ocost + a2*acost + a3*gcost + a4*tcost
+if totalCash == totalCOST
+then output("order placed succefully")
+else if totalCash > totalCOST 
+then change = totalCash - totalCOST
+output("order placed and change is :" change)
+else 
+output("isufficiebt amount")

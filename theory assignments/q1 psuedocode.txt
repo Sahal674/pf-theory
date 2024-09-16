@@ -1,0 +1,4 @@
+output("enter value in kilometer per second")
+input x
+ans = x * 2236.936
+output(ans,"mph")

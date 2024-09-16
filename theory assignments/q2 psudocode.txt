@@ -1,0 +1,13 @@
+output("enter number")
+input num 
+if num <= 0
+then
+output("invalid")
+else
+if number % 2 == 0
+then 
+output("even")
+else
+output("odd")
+end if 
+end if

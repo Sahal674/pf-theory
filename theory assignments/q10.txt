@@ -1,0 +1,28 @@
+input num
+correctNum = 0
+multily = 0
+while num >= 0
+	ldigit = num % 10
+	secondLdidit = (num/10)%10
+	if secondLdidit  == 9 and ldigit == 0
+	then
+		correctNum = correctNum + (9*multily)
+		num = num div 10
+		multily = multily * 10
+	else
+		correctNum = correctNum + (secondLdidit*multily)
+		num = num div 10
+		multily = multily *10
+	end if
+	lastnum = 0
+	while correctNum >0
+		power = 0
+		ldigit = correctNum % 10
+		lastnum = lastnum + ldigit*(10^power)
+		power = power + 1
+		correctNum = correctNum / 10
+	end while
+end while
+output(lastnum)	
+		
+		 

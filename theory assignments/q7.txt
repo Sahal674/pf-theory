@@ -1,0 +1,43 @@
+digit = 0
+output("enter 7 digit num of 1 and 0s")
+input num 
+if num == 1111110
+then 
+	digit = 0
+	output("ground floor",digit)
+else if num == 0110000
+then 
+	digit = 1
+	output("   first floor",digit)
+else if num == 1101101
+then 
+	digit = 2
+	output("   second  floor",digit)
+else if num == 1111001
+then 
+	digit = 3
+	output("    third floor",digit)
+else if num == 0110011
+then 
+	digit = 4
+	output("   fourth  floor",digit)
+else if num == 1011011
+then 
+	digit = 5
+	output("  fifth   floor",digit)
+else if num == 1011111
+then 
+	digit = 6
+	output("   sixth  floor",digit)
+else if num == 1110000
+then 
+	digit = 7
+	output("   seventh  floor",digit)
+else if num == 11111111
+then 
+	digit = 8
+	output("   eieght  floor",digit)
+else 
+	output("invalid input")
+end if 
+	
